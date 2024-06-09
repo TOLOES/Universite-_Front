@@ -1,7 +1,7 @@
-import { Routes } from '@angular/router';
-import { VehicleListComponent } from './vehicle-list/vehicle-list.component';
+import {Routes} from '@angular/router';
+import {HomePageComponent} from "./pages/home-page/home-page.component";
 
 export const appRoutes: Routes = [
-  { path: 'vehicles', component: VehicleListComponent },
-  { path: '', redirectTo: '/vehicles', pathMatch: 'full' },
+  {path: 'home', component: HomePageComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];

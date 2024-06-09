@@ -25,7 +25,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/generics/styles.scss"
             ],
             "scripts": []
           },
@@ -34,7 +34,6 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
                   "maximumError": "1mb"
                 },
                 {
@@ -84,7 +83,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/generics/styles.scss"
             ],
             "scripts": []
           }
