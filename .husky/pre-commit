@@ -1,0 +1,6 @@
+#!/bin/sh
+export PATH="/c/Program Files/nodejs:$PATH"
+. "$(dirname "$0")/_/husky.sh"
+
+npm run lint && npm run test
+
