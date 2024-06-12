@@ -18,6 +18,8 @@ yarn-error.log
 .c9/
 *.launch
 .settings/
+.angular/
+.scannerwork/
 *.sublime-workspace
 
 # Visual Studio Code
@@ -40,3 +42,5 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+sonar-project.properties
