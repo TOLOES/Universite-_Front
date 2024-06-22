@@ -1,0 +1,25 @@
+.header--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #283757;
+  color: #fff;
+  position: relative;
+
+  .header--logo {
+    img {
+      height: 60px;
+      width: auto;
+    }
+  }
+
+  .header--title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
