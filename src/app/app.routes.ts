@@ -1,7 +1,7 @@
-import {Routes} from '@angular/router';
-import {HomePageComponent} from "./pages/home-page/home-page.component";
+import { Routes } from '@angular/router';
+import { HomePageContainerComponent } from "./module/HomePage/container/home-page-container.component";
 
 export const appRoutes: Routes = [
-  {path: 'home', component: HomePageComponent},
+  { path: 'home', component: HomePageContainerComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];

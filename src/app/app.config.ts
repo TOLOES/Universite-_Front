@@ -6,12 +6,10 @@ import {RouterModule} from '@angular/router';
 import {AppComponent} from './app.component';
 import {ApiService} from './services/api.service';
 import {appRoutes} from './app.routes';
-import {HomePageComponent} from "./pages/home-page/home-page.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent,
   ],
   imports: [
     BrowserModule,
